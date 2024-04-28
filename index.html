@@ -5,8 +5,378 @@
     <title>Practice Code</title>
 </head>
 
-<body>
-    <h1>Practice Code</h1>
+<body> 
+    
+    <section id="Question One"> Question One:
+        <style>
+        
+            pre {
+              background-color: rgba(0, 0, 0, 0.5);
+              padding: 10px;
+              border-radius: 5px;
+            }
+          </style>
+        </head>
+        <body>
+          <h1>Java Program Example</h1>
+          
+        
+          <h2>Java Program:</h2>
+          <pre>
+            <code>
+              public class HelloWorld {
+                  public static void main(String[] args) {
+                      System.out.println("Hello, world!");
+                  }
+              }
+            </code>
+          </pre>
+    </section>
+    <br><hr>
+    <section id="Question Two"> Question Two:
+        
+        
+  <h1>To illustrate text formatting tags</h1>
+
+  <div style="font-style: italic; margin-bottom: 10px;">This is Italized</div>
+
+  <div style="animation: marquee 4s infinite; margin-bottom: 10px;">This is an alternate Marquee text</div>
+
+  <div style="text-decoration: underline; margin-bottom: 10px;">This is underlined</div>
+
+  <div style="font-weight: bold; margin-bottom: 10px;">This is bold</div>
+
+  <div style="font-style: italic; font-weight: bold; margin-bottom: 10px;">This is emphasized</div>
+
+  <div style="font-weight: 800; margin-bottom: 10px;">This is Strong Text</div>
+
+  <div style="text-decoration: line-through; margin-bottom: 10px;">This is striked text</div>
+
+  <div style="font-family: monospace; background-color: #f0f0f0; padding: 2px 5px; border-radius: 3px; margin-bottom: 10px;">This is computer code</div>
+
+  <div style="vertical-align: super; font-size: smaller; margin-bottom: 10px;">This is superscript code</div>
+
+  <div style="vertical-align: sub; font-size: smaller; margin-bottom: 10px;">This is subscript code</div>
+
+  <div style="font-size: larger; margin-bottom: 10px;">This is big text</div>
+
+  <div style="font-size: smaller; margin-bottom: 10px;">This is small text</div>
+
+  <style>
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+    </section>
+    <br><hr>
+    <section id="Question Two_"> Question Two:
+       
+        <h1>An ordered nested List:</h1>
+        <ol>
+          <li>Coffee</li>
+          <li>Tea
+            <ol type="a">
+              <li>Black tea</li>
+              <li>Green tea
+                <ol type="i">
+                  <li>China</li>
+                  <li>Africa</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li>Milk</li>
+        </ol>
+      
+        <h1>A Definition List:</h1>
+        <dl>
+          <dt>Bangalore</dt>
+          <dd>- Capital City of Karnataka</dd>
+          <dt>Mumbai</dt>
+          <dd>- Capital city of Maharashtra</dd>
+        </dl>
+    </section>
+<br><hr>
+<section id="Question Three"> Question Three:
+    
+<style>
+    /* Styling for the table */
+    /* CSS for double-line black border */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 3px double black;
+      padding: 8px;
+      text-align: center;
+    }
+   
+  </style>
+  
+    <!-- Table structure with inline styling -->
+    <table style="border-collapse: collapse; width: 100%;">
+      <tr>
+        <th colspan="4" style="border: 3px double black; padding: 8px; text-align: center;">TABLE HEADING SPANNING 4 COLUMNS</th>
+      </tr>
+      <tr>
+        <td style="border: 3px double black; padding: 8px; text-align: center;">Normal Cell</td>
+        <td colspan = "2" style="border: 3px double black; padding: 8px; text-align: center;">CELL SPANNING 2 COLUMNS</td>
+        <td style="border: 3px double black; padding: 8px; text-align: center;">Normal Cell</td>
+      </tr>
+      <tr>
+        <td rowspan="3" style="border: 3px double black; padding: 8px; text-align: center; background-color: lightgray;">Cell spanning 3 Rows with Gray Background</td>
+        <td style="border: 3px double black; padding: 8px; text-align: center;">Normal Cell</td>
+        <td style="border: 3px double black; padding: 8px; text-align: center;">Normal Cell</td>
+        <td style="border: 3px double black; padding: 8px; text-align: center;">Normal Cell</td>
+      </tr>
+      <tr>
+        <td style="border: 3px double black; padding: 8px; text-align: center;">Normal Cell</td>
+        <td colspan="2" rowspan="2" style="border: 3px double black; padding: 8px; text-align: center;">Cell spanning 2 rows and 2 Columns</td>
+      </tr>
+      <tr>
+        <td style="border: 3px double black; padding: 8px; text-align: center;">Normal Cell</td>
+      </tr>
+    </table>
+  </section>
+  <br><hr> Question Four:
+  <section id=" Question Four">
+  
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .form-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .form-control:focus {
+    outline: none;
+    border-color: #5c9ded;
+  }
+  .form-checkbox {
+    margin-right: 10px;
+  }
+  .terms-container {
+    margin-bottom: 20px;
+  }
+  .submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5c9ded;
+    color: #fff;
+    cursor: pointer;
+  }
+  .clear-btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid #5c9ded;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #5c9ded;
+    cursor: pointer;
+  }
+</style>
+
+
+    <div style="margin-bottom: 20px; font-size: 24px; font-weight: bold; text-align: center;">Academic Information</div>
+    <form>
+      <div style="margin-bottom: 15px;">
+        <label for="degree" style="display: block; margin-bottom: 5px; font-weight: bold;">Degree</label>
+        <select id="degree" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+          <option value="">Select Degree</option>
+          <option value="mba">Masters of Business Administration</option>
+          <option value="mit">Masters in Information Technologies</option>
+        </select>
+      </div>
+      <div style="margin-bottom: 15px;">
+        <label for="student-id" style="display: block; margin-bottom: 5px; font-weight: bold;">Student ID</label>
+        <input type="text" id="student-id" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" placeholder="Enter Student ID">
+      </div>
+      <div style="margin-bottom: 15px;">
+        <label for="classes" style="display: block; margin-bottom: 5px; font-weight: bold;">Classes Attended</label>
+        <select id="classes" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" multiple>
+          <option value="geography">Geography</option>
+          <option value="mathematics">Mathematics</option>
+          <option value="english">English</option>
+        </select>
+      </div>
+    </div>
+    <div style="width: 80%; margin: 0 auto; padding: 20px; border: 2px solid #ccc; border-radius: 10px;">
+      <div style="margin-bottom: 20px; font-size: 24px; font-weight: bold; text-align: center;">Personal Details</div>
+      <div style="margin-bottom: 15px;">
+        <label for="first-name" style="display: block; margin-bottom: 5px; font-weight: bold;">First Name</label>
+        <input type="text" id="first-name" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" placeholder="Enter First Name">
+      </div>
+      <div style="margin-bottom: 15px;">
+        <label for="last-name" style="display: block; margin-bottom: 5px; font-weight: bold;">Last Name</label>
+        <input type="text" id="last-name" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" placeholder="Enter Last Name">
+      </div>
+      <div style="margin-bottom: 15px;">
+        <label style="display: block; margin-bottom: 5px; font-weight: bold;">Gender</label><br>
+        <label for="male" class="form-checkbox">
+          <input type="radio" id="male" name="gender" value="male"> Male
+        </label>
+        <label for="female" class="form-checkbox">
+          <input type="radio" id="female" name="gender" value="female"> Female
+        </label>
+      </div>
+      <div style="margin-bottom: 15px;">
+        <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email</label>
+        <input type="email" id="email" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" placeholder="Enter Email">
+      </div>
+    </div>
+    <div style="width: 80%; margin: 0 auto; padding: 20px; border: 2px solid #ccc; border-radius: 10px;">
+      <div style="margin-bottom: 20px;">
+        <label for="terms" style="display: block; margin-bottom: 5px; font-weight: bold;">Terms and Conditions</label>
+        <textarea id="terms" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" rows="4" placeholder="Write your comments here"></textarea>
+      </div>
+      <div>
+        <button type="submit" class="submit-btn">Send Form</button>
+        <button type="reset" class="clear-btn">Clear Form</button>
+      </div>
+      
+    </div>
+    </form>
+  </div>
+
+</section>
+<br><hr>Question Five:
+<section id = "Question five">
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+        }
+        .form-container {
+          width: 80%;
+          margin: 0 auto;
+          padding: 20px;
+          border: 2px solid #ccc;
+          border-radius: 10px;
+        }
+        .form-title {
+          margin-bottom: 20px;
+          font-size: 24px;
+          font-weight: bold;
+          text-align: center;
+        }
+        .form-group {
+          margin-bottom: 15px;
+        }
+        .form-group label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+        .form-control {
+          width: calc(100% - 30px);
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .form-checkbox {
+          margin-right: 10px;
+          glyph-orientation-horizontal: middle;
+        }
+        .instructions-textarea {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+          resize: vertical;
+        }
+        .submit-btn {
+          display: block;
+          width: 150px;
+          margin: 20px auto;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          background-color: #5c9ded;
+          color: #fff;
+          cursor: pointer;
+        }
+      </style>
+      </head>
+      <body>
+        <div class="form-container">
+          <div class="form-title">Pizza Shop 2.0</div>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label>Pizza Toppings</label>
+              <label for="supreme" class="form-checkbox">
+                <input type="checkbox" id="supreme" name="topping" value="supreme"> Supreme
+              </label>
+              <label for="vegetarian" class="form-checkbox">
+                <input type="checkbox" id="vegetarian" name="topping" value="vegetarian"> Vegetarian
+              </label>
+              <label for="hawaiian" class="form-checkbox">
+                <input type="checkbox" id="hawaiian" name="topping" value="hawaiian"> Hawaiian
+              </label>
+            </div>
+            <div class="form-group">
+              <label>Pizza Sauce</label>
+              <select id="sauce" class="form-control">
+                <option value="tomato">Tomato</option>
+                <option value="bbq">BBQ</option>
+                <option value="pesto">Pesto</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Optional Extras</label>
+              <label for="extra-cheese" class="form-checkbox">
+                <input type="checkbox" id="extra-cheese" name="extras" value="extra-cheese"> Extra Cheese
+              </label>
+              <label for="gluten-free" class="form-checkbox">
+                <input type="checkbox" id="gluten-free" name="extras" value="gluten-free"> Gluten Free Base
+              </label>
+            </div>
+            <div class="form-group">
+              <label for="delivery-instructions">Delivery Instructions</label>
+              <textarea id="delivery-instructions" class="instructions-textarea" rows="4" placeholder="Enter delivery instructions"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send My Order</button>
+          </form>
+        </div>
+</section>
+
+
 </body>
 
 </html>
